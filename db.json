@@ -1,0 +1,30 @@
+  "name": "My Unique NFT",
+  "description": "This is an example of NFT metadata",
+  "image": "ipfs://QmYourHashHere",  // Ссылка на изображение, хранящееся на IPFS или любом другом сервере
+  "external_url": "https://your-website.com/nft/1",  // Опционально, ссылка на внешнюю страницу с деталями NFT
+  "attributes": [  // Список атрибутов NFT, каждый атрибут имеет тип и значение
+    {
+      "trait_type": "Base",  // Название атрибута
+      "value": "Starfish"    // Значение атрибута
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Big"
+    },
+    {
+      "display_type": "boost_number",  // Тип отображения, например, число
+      "trait_type": "Stamina",
+      "value": 40
+    },
+    {
+      "display_type": "boost_percentage",
+      "trait_type": "Speed",
+      "value": 15
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 2
+    }
+  ]
+}
